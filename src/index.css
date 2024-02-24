@@ -28,7 +28,7 @@ strong {
   color: rgb(14 165 233);
 }
 #total {
-  border: 1px solid;
+  
   color: #a855f7;
   border-radius: 7px;
  
@@ -38,7 +38,7 @@ body {
   background-size: 100% 100%; /* Cobrir completamente o elemento body */
   background-position: center; /* Centralizar a imagem */
   background-repeat: no-repeat; /* Impedir que a imagem se repita */
-  background-color: rgb(236 252 203);
+  background-color: rgb(220 252 231);
 }
 
   section {

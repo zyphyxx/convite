@@ -6,7 +6,7 @@ export default function Body() {
     <div className="text-center mb-8" id='total'>
       <section className="text-center mb-8">
         <div className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-          <h1 className="text-4xl font-bold">Convite Especial! </h1>
+          <h1 className="text-4xl font-bold"><u>Convite Especial! </u></h1>
         </div>
       </section>
 
