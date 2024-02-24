@@ -1,9 +1,17 @@
 import React from 'react';
 import { IMG } from "../data";
+import imgDestaque from "../assets/cute.gif";
+import { Helmet } from 'react-helmet';
 
 export default function Body() {
   return (
     <div className="text-center mb-8" id='total'>
+      <Helmet>
+        <meta property="og:image" content={imgDestaque} />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
+      </Helmet>
+
       <section className="text-center mb-8">
         <div className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
           <h1 className="text-4xl font-bold">Convite Especial! </h1>
@@ -12,9 +20,8 @@ export default function Body() {
 
       <section >
         <p className='text-sky-500'>
-          🎉 Queridos amigos e familiares, estamos muito feliz em convidar vocês para a <b>festinha de 1 ano</b> do nosso pequeno explorador.  🎁 
+          🎉 Queridos amigos e familiares, estamos muito felizes em convidar vocês para a <b>festinha de 1 ano</b> do nosso pequeno explorador.  🎁 
         </p>
-      
       </section>
 
       <section className="text-center mb-8">
@@ -25,7 +32,7 @@ export default function Body() {
 
       <section>
         <div>
-          <p className='text-sky-500'> Vamos celebrarmos juntos este momento mágico 🎉</p>
+          <p className='text-sky-500'> Vamos celebrar juntos este momento mágico 🎉</p>
         </div>
       </section>
 
@@ -36,10 +43,10 @@ export default function Body() {
       <section className="text-sky-500 mb-8">
         <div>
           <p className="mb-4">
-            🦖 Embarque nesta incrível aventura ao mundo dos <b>dinossauros !</b>
+            🦖 Embarque nesta incrível aventura ao mundo dos <b>dinossauros!</b>
           </p>
           <p>
-          Em uma festa cheia de <b>cores vibrantes, brincadeiras</b> e muitas descobertas pré-históricas aguardam por vocês. 🌈
+            Em uma festa cheia de <b>cores vibrantes, brincadeiras</b> e muitas descobertas pré-históricas aguardam por vocês. 🌈
           </p>
         </div>
       </section>
@@ -50,7 +57,7 @@ export default function Body() {
 
       <section className="text-sky-500 mb-8">
         <div className="text-center mb-8">
-          <p >
+          <p>
             Mal podemos esperar para compartilhar este dia tão especial com todos vocês! 🌟
           </p>
 
@@ -62,7 +69,7 @@ export default function Body() {
             Seu carinho é o presente mais valioso, mas se quiserem tornar esta jornada ainda mais inesquecível, ficaremos imensamente gratos! 🎁🌟
           </p>
           <div className="grid justify-items-center mb-4">
-            <img src={IMG[9].image} width="200px" alt="Leo'saurinho Rex" />
+            <img src={IMG[9].image} alt="Leo'saurinho Rex" width="200px" />
           </div>
           <p className="mb-4">
             <b>Leo'saurinho Rex</b> está crescendo rápido, e as roupinhas que cabem nele são tamanho 3. Será uma alegria imensa contar com a presença de todos vocês! 🌟
@@ -70,8 +77,8 @@ export default function Body() {
         </div>
 
         <div className="grid justify-items-center mb-4">
-            <img src={IMG[10].image} width="200px" alt="Leo'saurinho Rex" />
-          </div>
+          <img src={IMG[10].image} alt="Leo'saurinho Rex" width="200px" />
+        </div>
       </section>
 
       <section className="text-center mb-8">
