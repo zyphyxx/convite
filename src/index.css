@@ -34,7 +34,7 @@ strong {
  
 }
 body {
-  background-image: url("");
+  
   background-size: 100% 100%; /* Cobrir completamente o elemento body */
   background-position: center; /* Centralizar a imagem */
   background-repeat: no-repeat; /* Impedir que a imagem se repita */

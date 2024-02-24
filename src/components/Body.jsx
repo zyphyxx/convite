@@ -5,7 +5,7 @@ export default function Body() {
   return (
     <div className="text-center mb-8" id='total'>
       <section className="text-center mb-8">
-        <div class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+        <div className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
           <h1 className="text-4xl font-bold">Convite Especial! </h1>
         </div>
       </section>
@@ -18,8 +18,8 @@ export default function Body() {
       </section>
 
       <section className="text-center mb-8">
-        <div class="text-5xl font-extrabold ...">
-          <h2 class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Leonardo Freitas Mendes</h2>
+        <div className="text-5xl font-extrabold ...">
+          <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Leonardo Freitas Mendes</h2>
         </div>
       </section>
 
@@ -55,7 +55,7 @@ export default function Body() {
           </p>
 
           <div className="grid justify-items-center mb-8">
-            <img src={IMG[4].image} className="rounded-lg" width="200px"  />
+            <img src={IMG[4].image} alt="" className="rounded-lg" width="200px"  />
           </div>
         
           <p className="mb-4">
@@ -75,7 +75,7 @@ export default function Body() {
       </section>
 
       <section className="text-center mb-8">
-        <p class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"><h3><b>Mal podemos esperar para compartilhar este dia mágico com vocês!</b></h3></p>
+        <p className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"><b>Mal podemos esperar para compartilhar este dia mágico com vocês!</b></p>
       </section>
 
       <section className="text-sky-500 mb-8">
@@ -93,7 +93,7 @@ export default function Body() {
       </section>
 
       <div className="grid justify-items-center mb-4">
-        <img src={IMG[7].image} width="300px" className="rounded-lg" />
+        <img src={IMG[7].image} width="90%" alt="Localização" className="rounded-lg" />
       </div>
     </div>
   );
