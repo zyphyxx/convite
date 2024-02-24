@@ -18,7 +18,29 @@ a {
 
 * {
   font-family: 'Roboto', sans-serif;
-  background-color: #f8f8f8; 
+
   margin: 1%;
-  
+  background-color: transparent;
+  background-size: cover;
 }
+
+strong {
+  color: rgb(14 165 233);
+}
+#total {
+  border: 1px solid;
+  color: rgb(14 165 233);
+  border-radius: 7px;
+ 
+}
+body {
+  background-image: url("");
+  background-size: 100% 100%; /* Cobrir completamente o elemento body */
+  background-position: center; /* Centralizar a imagem */
+  background-repeat: no-repeat; /* Impedir que a imagem se repita */}
+
+  section {
+    padding: 2%;
+  }
+
+

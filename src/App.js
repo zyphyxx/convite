@@ -1,20 +1,13 @@
 import './index.css';
-import Headers from './components/Headers';
-import Mains from './components/Mains';
-import { Nome } from './components/Mains';
-import { InfoSection } from './components/Mains';
+import Body from './components/Body';
 
 
 
 function App() {
   return (
-    <>
-    <Headers></Headers>
-    <Mains></Mains>
-    <Nome></Nome>
-    
-    <InfoSection></InfoSection>
-    </>
+   <section>
+      <Body></Body>
+   </section>
   );
 }
 
