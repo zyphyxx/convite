@@ -29,7 +29,7 @@ strong {
 }
 #total {
   border: 1px solid;
-  color: rgb(14 165 233);
+  color: #a855f7;
   border-radius: 7px;
  
 }
@@ -37,10 +37,12 @@ body {
   background-image: url("");
   background-size: 100% 100%; /* Cobrir completamente o elemento body */
   background-position: center; /* Centralizar a imagem */
-  background-repeat: no-repeat; /* Impedir que a imagem se repita */}
+  background-repeat: no-repeat; /* Impedir que a imagem se repita */
+  background-color: rgb(236 252 203);
+}
 
   section {
-    padding: 2%;
+    padding: 1%;
   }
 
 

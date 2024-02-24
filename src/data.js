@@ -6,6 +6,9 @@ import aww from "./assets/aww.gif"
 import rawr from "./assets/rawr.gif"
 import dinodance from "./assets/dinodance.gif"
 import flip from "./assets/flip.gif"
+import d8 from "./assets/d8.gif"
+import d9 from "./assets/d9.gif"
+import d10 from "./assets/d10.gif"
 
 export const IMG = [
   {
@@ -32,5 +35,14 @@ export const IMG = [
   },
   {
     image: flip
+  },
+  {
+    image: d8
+  },
+  {
+    image: d9
+  },
+  {
+    image: d10
   }
 ];
