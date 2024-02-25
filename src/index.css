@@ -7,13 +7,10 @@ h1 {
   @apply text-2xl;
 }
 h2 {
-  @apply text-xl;
+  @apply text-2xl;
 }
 h3 {
   @apply text-lg;
-}
-a {
-  @apply text-blue-600 underline;
 }
 
 * {
@@ -28,7 +25,7 @@ strong {
   color: rgb(14 165 233);
 }
 #total {
-  
+  border: solid 1px;
   color: #a855f7;
   border-radius: 7px;
  
@@ -43,6 +40,7 @@ body {
 
   section {
     padding: 1%;
+    font-size:large;
   }
 
 

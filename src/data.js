@@ -9,6 +9,7 @@ import flip from "./assets/flip.gif"
 import d8 from "./assets/d8.gif"
 import d9 from "./assets/d9.gif"
 import d10 from "./assets/d10.gif"
+import d11 from "./assets/party.gif"
 
 export const IMG = [
   {
@@ -44,5 +45,8 @@ export const IMG = [
   },
   {
     image: d10
+  },
+  {
+    image: d11
   }
 ];

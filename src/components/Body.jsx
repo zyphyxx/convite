@@ -25,7 +25,7 @@ export default function Body() {
   };
 
   const toggleImageSize5 = () => {
-    setImageSize5(imageSize4 === "200px" ? "400px" : "200px");
+    setImageSize5(imageSize5 === "200px" ? "400px" : "200px");
   };
 
   return (
@@ -44,7 +44,7 @@ export default function Body() {
 
       <section className="text-center mb-8">
         <div className="text-5xl font-extrabold ...">
-          <h2 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Leonardo Freitas Mendes</h2>
+          <button><h2 className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">Leonardo Freitas Mendes</h2></button>
         </div>
       </section>
 
@@ -94,18 +94,17 @@ export default function Body() {
             <b>Leo'saurinho Rex</b> está crescendo rápido, e as roupinhas que cabem nele são tamanho 3. Será uma alegria imensa contar com a presença de todos vocês! 🌟
           </p>
         </div>
-
-        <div className="grid justify-items-center mb-4" onClick={toggleImageSize5}>
-          <img src={IMG[10].image} width={imageSize5} alt="Leo'saurinho Rex" />
-        </div>
       </section>
 
+      <div className="grid justify-items-center mb-4" onClick={toggleImageSize5}>
+        <img src={IMG[11].image} width={imageSize5} alt="Leo'saurinho" />
+      </div>
 
       <section className="text-center mb-8">
         <p className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"><b>Mal podemos esperar para compartilhar este dia mágico com vocês!</b></p>
       </section>
 
-      <section className="text-sky-500 mb-8">
+      <section className="text-sky-500 mb-8" >
         <div className="justify-items-center">
           <p className="mb-2">
             🗓️ <strong>Data:</strong> 10 de Março
