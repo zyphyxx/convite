@@ -113,7 +113,7 @@ export default function Body() {
             🕐 <strong>Hora:</strong> 13:00 h
           </p>
           <p className="mb-2">
-            📍 <strong>Local:</strong> Estrada do Marengo nº 307, Boa Vista Suzano
+            📍 <strong>Local:</strong> Suzano
           </p>
         </div>
       </section>
